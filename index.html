@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teatro</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Barlow:wght@100&family=Caprasimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="divBody">
+        <header>
+            <nav>
+                <a href=""><h1 class="brillo-rojo">Teatro</h1></a>
+                <ul>
+                    <li><a href="#Novedades">Novedades!</a></li>
+                    <li><a href="#Próximamente">Próximamente</a></li>
+                    <li><a href="#Horarios">Horarios</a></li>
+                </ul>
+            </nav>
+</header>
+<section>
+
+    <div class="divuno">
+        <h1 class="titulosSections" id="Novedades">Novedades</h1>
+        <article class="a1">
+            <img src="./IMG/El-fantasma-de-la-opera.jpg" alt="Imagen ilustrativa" class="imgNovedades">
+            <p>"El Fantasma de la Ópera" regresa triunfalmente a Broadway:
+                Tras una pausa forzada debido a la pandemia, el icónico musical "El Fantasma de la Ópera" ha vuelto a los escenarios de Broadway con renovada energía. Los espectadores están emocionados de volver a disfrutar de la magia de esta cautivadora historia y de las interpretaciones musicales inolvidables. ¡Una experiencia que no se pueden perder!</p>
+        </article>
+
+        <article class="a2">
+            <p>Talleres de actuación y dramaturgia abiertos al público:
+                Esta semana, varios teatros han organizado talleres abiertos al público, brindando la oportunidad de aprender de reconocidos profesionales del teatro. Estas sesiones interactivas ofrecen a los participantes la posibilidad de explorar técnicas de actuación y escritura dramática, así como de conectarse con otros apasionados del teatro.</p>
+            <img src="./IMG/taller_actuacion.jpg" alt="imagen ilustrativa" class="imgNovedades">
+        </article>
+    </div>
+</section>
+<section>
+    <div class="divdos">
+        <h1 id="Próximamente">Próximamente</h1>
+        <div>
+            <figure><img src="./IMG/278_01_grande.jpg" alt=""imagen ilustrativa></figure>
+        </div>
+    </div>
+    <div class="divtres col-12 row">
+        <h1 id="Horarios">Horarios de la Semana</h1>
+        <div class="col-6">
+            <table>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Dias</th>
+                    <th>Horarios</th>
+                </tr>
+                <tr>
+                    <td>El Lazarillo de Tormes</td>
+                    <td>17 y 18 de Julio</td>
+                    <td>20.hrs</td>
+                </tr>
+                <tr>
+                    <td>70 kilos de Stand Up</td>
+                    <td>19 y 20 de Julio</td>
+                    <td>20.hrs</td>
+                    
+                </tr>
+                <tr>
+                    <td>Así reinaba el Rey Reinante</td>
+                    <td>Lunes a Viernes</td>
+                    <td>17.hrs</td>
+                </tr>
+            </table>
+        </div>
+        <div class="formulario col-6">
+            <select name="select" id="select" class="form-select m-2" >
+                <option value="">El Lazarillo de Tormes</option>
+                <option value="">70 kilos de Stand Up</option>
+                <option value="">Así reinaba el Rey Reinante</option>
+            </select>
+            <input type="button" value="Comprar Entrada" class="btn btn-outline-primary">
+        </div>
+    </div>
+</section>
+<footer>
+    <p>Lucas Centurion - 2023</p>
+</footer>
+    </div>
+</body>
+</html>
